@@ -15,7 +15,7 @@ resource "aws_instance" "web" {
   security_groups = [aws_security_group.allow_http.name]
 
   tags = {
-    Name = "HelloWorld-KR"
+    Name = "HelloWorld"
   }
 }
 
